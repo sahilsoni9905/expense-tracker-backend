@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:5173", // Allow requests from Vite dev server
+    origin: "https://expense-tracker-olive-phi.vercel.app/", // Allow requests from Vite dev server
     credentials: true,
   })
 );
