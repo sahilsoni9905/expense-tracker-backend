@@ -5,6 +5,8 @@ const router = express.Router();
 
 // Get all shops
 router.get('/', async (req, res) => {
+  console.log('Fetching all shops');
+  
   try {
     // We'll use fixed shops for this application
     const shops = [
